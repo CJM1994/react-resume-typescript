@@ -2,7 +2,7 @@ import { useState } from 'react';
 
 import './Nav.css';
 import { AiOutlineHome, AiOutlineUser, AiOutlineMail } from 'react-icons/ai';
-import { MdWorkOutline } from 'react-icons/md';
+import { MdMenuBook } from 'react-icons/md';
 import { BsCodeSlash } from 'react-icons/bs';
 
 const Nav = () => {
@@ -32,7 +32,7 @@ const Nav = () => {
         onClick={() => setActive('#experience')}
         href='#experience'
       >
-        <MdWorkOutline />
+        <MdMenuBook />
       </a>
       {/* {Portfolio} */}
       <a

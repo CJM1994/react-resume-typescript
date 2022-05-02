@@ -27,9 +27,25 @@
 .experience__content {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+}
+
+.experience__content--item {
+  display: flex;
   gap: 1rem;
 }
 
-.experience__content--items {
-  display: flex;
+.experience__content--icon {
+  margin-top: 8px;
+  color: var(--color-primary);
+  font-size: 1.6rem;
+}
+
+@media screen and (max-width: 1024px) {
+  .experience-container {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media screen and (max-width: 600px) {
+
 }

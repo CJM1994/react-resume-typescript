@@ -35,7 +35,13 @@ const About = () => {
             </article>
           </div>
   
-          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum</p>
+          <p>
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+            Lorem Ipsum is simply dummy text of the printing and
+            logging industry. Lorem Ipsum is simply dummy text of the printing and
+            logging industry. Lorem Ipsum is simply dummy text of the printing and
+            logging industry.
+          </p>
 
           <a href="#contact" className="btn btn-primary">Let's Talk</a>
 

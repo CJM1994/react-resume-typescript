@@ -63,6 +63,20 @@ const Portfolio = () => {
       {/* {Section Container} */}
       <div className='container portfolio-container'>
 
+        {
+          portfolioData.map(({ id, image, title, github, live }) => {
+            return (
+              <article key={id} className='portfolio__item'>
+                <div className='portfolio__item--image'><img src={image} alt={title + ' Image'} /></div>
+                <h3>{title}</h3>
+                <div className='portfolio__item--cta'>
+                  <a href={github} target='_blank' className='btn'>GitHub</a>
+                  <a href={live} target='_blank' className='btn btn-primary'>Live Demo</a>
+                </div>
+              </article>
+            );
+          })
+        }
 
       </div>
     </section>
@@ -70,12 +84,3 @@ const Portfolio = () => {
 }
 
 export default Portfolio;
-
-{/* <article className='portfolio__item'>
-<div className='portfolio__item--image'><img src={'placeholder'} alt="code-typr" /></div>
-<h3>Code-Typr</h3>
-<div className="portfolio__item--cta">
-  <a href={'placeholder'} target='_blank' className='btn'>GitHub</a>
-  <a href={'placeholder'} target='_blank' className='btn btn-primary'>Live Demo</a>
-</div>
-</article> */}

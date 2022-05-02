@@ -68,7 +68,8 @@ section > h5 {
   color: var(--color-light);
 }
 
-section > h5 {
+section > h1 {
+  text-align: center;
   color: var(--color-primary);
   margin-bottom: 3rem;
 }

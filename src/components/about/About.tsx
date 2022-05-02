@@ -37,7 +37,7 @@ const About = () => {
   
           <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum</p>
 
-          <a href="#contact" className="btn btn-primary"></a>
+          <a href="#contact" className="btn btn-primary">Let's Talk</a>
 
         </div>
       </div>

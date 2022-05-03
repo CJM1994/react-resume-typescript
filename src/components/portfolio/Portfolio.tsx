@@ -84,3 +84,12 @@ const Portfolio = () => {
 }
 
 export default Portfolio;
+
+{/* <article className='portfolio__item'>
+<div className='portfolio__item--image'><img src={'placeholder'} alt="code-typr" /></div>
+<h3>Code-Typr</h3>
+<div className="portfolio__item--cta">
+  <a href={'placeholder'} target='_blank' className='btn'>GitHub</a>
+  <a href={'placeholder'} target='_blank' className='btn btn-primary'>Live Demo</a>
+</div>
+</article> */}

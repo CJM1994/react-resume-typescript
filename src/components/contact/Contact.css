@@ -54,6 +54,14 @@ textarea {
   resize: none;
 }
 
+input:-webkit-autofill,
+input:-webkit-autofill:focus {
+    transition: background-color 600000s 0s, color 600000s 0s;
+}
+input[data-autocompleted] {
+    background-color: transparent !important;
+}
+
 @media screen and (max-width: 1024px) {
   .contact__container {
     grid-template-columns: 1fr;

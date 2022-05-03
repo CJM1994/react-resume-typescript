@@ -1,8 +1,18 @@
+import React from 'react';
+import emailjs from 'emailjs-com';
+
 import './Contact.css';
 import { MdOutlineEmail } from 'react-icons/md';
 import { AiFillLinkedin } from 'react-icons/ai';
 
 const Contact = () => {
+  const form = React.createRef<HTMLFormElement>();
+
+  const sendEmail = (event: React.SyntheticEvent) => {
+    event.preventDefault();
+    emailjs.sendForm('service_5xnc13t', 'template_37utoes', form.current || '', 'HeXvbOWdgJuiD5zrZ')
+  }
+
   return (
     <section id='contact'>
       <h5>Get In Touch</h5>
@@ -23,10 +33,10 @@ const Contact = () => {
             <a href='https://www.linkedin.com/in/connorjmullin/'>Send a message</a>
           </article>
         </div>
-        <form action=''>
-          <input type='text' name='name' placeholder='Your Full Name' />
-          <input type='text' name='email' placeholder='Your Email Address' />
-          <textarea rows={7} name='message' placeholder='Your Message' />
+        <form ref={form} onSubmit={sendEmail}>
+          <input spellCheck='false' type='text' name='name' placeholder='Your Full Name' required />
+          <input spellCheck='false' type='text' name='email' placeholder='Your Email Address' required />
+          <textarea rows={7} name='message' placeholder='Your Message' required />
           <button type='submit' className="btn btn-primary">Submit</button>
         </form>
       </div>

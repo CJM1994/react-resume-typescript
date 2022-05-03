@@ -19,7 +19,7 @@ const About = () => {
             <article className='about__card'>
               <MdOutlineBusiness className='about__card--icon' />
               <h5>Experience</h5>
-              <small>4+ Years Managing a Business</small>
+              <small>~5 Years Managing a Business</small>
             </article>
 
             <article className='about__card'>
@@ -31,16 +31,27 @@ const About = () => {
             <article className='about__card'>
               <FaReact className='about__card--icon' />
               <h5>Projects</h5>
-              <small>Built Many Projects, With A React Focus</small>
+              <small>Built Many Web Projects, With A React Focus</small>
             </article>
           </div>
-  
+
           <p>
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
-            Lorem Ipsum is simply dummy text of the printing and
-            logging industry. Lorem Ipsum is simply dummy text of the printing and
-            logging industry. Lorem Ipsum is simply dummy text of the printing and
-            logging industry.
+            I am a Junior Software Developer based out of New Westminster, BC. I have a serious passion
+            for learning and improving my skills in all aspects of Web Development including Front-End, Back-End, and Security.
+          </p>
+          <p>
+            I'm a well organized person, a problem solver, and an independent employee with a high attention to
+            detail. I'm also into Film, MMA, Weightlifting, Investing, History, and Gaming.
+          </p>
+          <p>
+            My career so far has
+            taught me a great deal about how to manage people, deal with customers (retail and businesses),
+            set and achieve goals, and how to have the confidence to deal with new and unexpected challenges.
+            I am excited to apply this knowledge and experience in a new and exciting domain.
+          </p>
+          <p>
+            I am interested in the full spectrum of Web Development, Front-End and Back-End, and am
+            currently looking for opportunities to work on ambitious projects with positive people.
           </p>
 
           <a href="#contact" className="btn btn-primary">Let's Talk</a>

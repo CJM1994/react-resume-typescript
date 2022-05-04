@@ -13,7 +13,7 @@ const portfolioData = [
     id: 1,
     image: IMG1,
     title: 'Code-Typr',
-    github: 'https://github.com/CJM1994/react-resume-typescript',
+    github: 'https://github.com/CJM1994/Typr',
     live: 'https://code-typr.netlify.app/',
   },
   {
